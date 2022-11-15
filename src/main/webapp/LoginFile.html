@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a:link, a:visited {
+            background-color: #808080;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        input,button{
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            box-sizing: border-box;
+            border: none;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<form action="loginServlet">
+    Enter Your Username:<br>
+    <input type="username" name="username" onfocus="this.value=''" > <!-- was email -->
+    <br>
+    Enter Your Password:<br>
+    <input type="password" name="password" value="******" onfocus="this.value=''" >
+    <br>
+    <input type="submit" name="enter" value="Send">
+    <br>
+    <br>
+    <p><a href="GuestMainFile.jsp">Login As A Guest</a></p>
+</form>
+</body>
+</html>
