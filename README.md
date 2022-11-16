@@ -9,3 +9,4 @@ Website for managing event logs for registered users or guests
 * [Servlet]
 * [Apche Derby DB]
 * [MVC]
+* [Java]
